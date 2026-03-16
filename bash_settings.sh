@@ -10,6 +10,8 @@ function append_path {
 #Add directories to PATH
 append_path "$HOME/bin"
 append_path "$HOME/.local/bin"
+append_path "$HOME/src"
+append_path "$HOME/workspace"
 
 #Set the prompt for both ZSH and BASH
 if [ -n "$ZSH_VERSION" ]; then
